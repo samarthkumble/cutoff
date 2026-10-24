@@ -72,7 +72,7 @@ What grounding catches is in `tests/test_core.py`. Some examples:
 | Sent to CHECK | 22 | 24 | **10** |
 | Company / role correct | 0% / 22% | 100% / 91% | **100% / 100%** |
 | Branch list correct | 69% | 81% | **100%** |
-| Median seconds per email | – | 67 | **39** |
+| Median seconds per email (Ryzen 5 5500U laptop, 16 GB, no GPU) | – | 67 | **39** |
 | Emails that needed a retry | – | 16 | **4** |
 
 The one remaining miss is EY's "please confirm a schedule" email. Gemma calls it "not a drive", and I think that's arguable. Four label corrections made after reviewing v1 are listed, each with its reason, in the labels' notes column. My inbox and labels aren't in this repo because they're my college email. The 10 synthetic emails in `data/fixtures/` reproduce the pipeline end to end.
