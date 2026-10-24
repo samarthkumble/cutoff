@@ -1,0 +1,15 @@
+# Personal: never commit
+profile.yaml
+data/inbox/
+data/labels*.csv
+digest.md
+results.json
+eval/
+.cache/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+WRITEUP.md

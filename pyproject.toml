@@ -1,0 +1,21 @@
+[project]
+name = "cutoff"
+version = "0.1.0"
+description = "A local Gemma reads your placement emails so you only open the ones you can apply to."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "PyYAML>=6.0", "python-dateutil>=2.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+cutoff = "cutoff.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["cutoff"]

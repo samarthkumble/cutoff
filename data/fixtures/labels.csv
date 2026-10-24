@@ -1,0 +1,11 @@
+id,is_drive,company,role,min_cgpa,min_percentage,branches,batch_years,max_active_backlogs,deadline,eligible,notes
+nimbus,Y,Nimbus Analytics,Associate Software Engineer,6.5,,CSE;ISE;CSBS;AIML,2027,0,2026-10-27T23:59,Y,clean case
+kestrel,Y,Kestrel Fintech,SDE Intern,7.5,,CSE;ISE;CSBS;ECE,2027,0,2026-10-26T18:00,N,CGPA cutoff above 7.08
+banyan,Y,Banyan Retail Tech,Graduate Engineer Trainee,,60,ALL,2027,,2026-10-28,Y,percentage trap: 60% is not a CGPA
+voltaire,Y,Voltaire Semiconductors,Design Verification Intern,7.0,,ECE;EEE;EIE;MD,2027,,2026-10-29,N,branch excluded
+orbit,Y,Orbit Logistics,Software Developer,7.0,,ALL,2026;2027,1,2026-10-30T17:00,Y,year missing from deadline
+saffron,Y,Saffron Cloud,Cloud Support Associate,7,,CS-ALLIED,2027,,2026-10-31,Y,CS and allied
+indigo,Y,Indigo Motors,Embedded Software Trainee,6.0,,Circuit branches,2027,,2026-11-01,?,circuit branches: ask the placement cell
+notice,N,,,,,,,,,,not a drive
+peacock,Y,Peacock Payments,Backend Engineer,6,,CSE;ISE;CSBS,2026,,2026-10-25,N,wrong batch
+tamarind,Y,Tamarind Health,Data Analyst Intern,7,,CSE;ISE;CSBS;AIDS,2027,0,2026-10-30,Y,HTML table

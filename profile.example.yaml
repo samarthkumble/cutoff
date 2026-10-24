@@ -1,0 +1,25 @@
+# Copy to profile.yaml and fill in. profile.yaml is gitignored: it never leaves your laptop.
+cgpa: 8.0             # on a 10-point scale
+branch: CSE           # any name from cutoff/branches.py ALIASES works (CSE, ISE, ECE, CSBS, AIML...)
+batch: 2027           # graduation year
+active_backlogs: 0
+
+# Percentages, for "60% throughout" style cutoffs. Leave null if you don't want to say;
+# drives with a % cutoff will then be marked CHECK instead of guessed.
+tenth_pct: null
+twelfth_pct: null
+ug_pct: null
+
+# Does "CS and allied branches" include you? (At most colleges CSBS counts as CS-allied.)
+allied_includes_me: true
+# Does a plain "CS" / "Computer Science" include you? Set true if your placement portal lets you
+# apply to drives that say only "CS".
+cs_includes_me: false
+# Does "CSE" / "Computer Science & Engineering" spelled out include you? Usually not for CSBS.
+cse_includes_me: false
+
+# Senders that only email you drives you're already eligible for (a portal that filters by your
+# profile). A drive from them with no criteria in the email counts as ELIGIBLE. Leave empty if
+# your portal emails every job to everyone (BMSCE's Superset does: it only says "not eligible"
+# when you try to apply), so those emails go to CHECK with their Apply link.
+prefiltered_senders: []

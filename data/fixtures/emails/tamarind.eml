@@ -1,0 +1,30 @@
+From: Placement Cell <placements@college.example.edu>
+To: students-2027@college.example.edu
+Subject: Tamarind Health - Data Analyst Intern
+Date: Fri, 23 Oct 2026 10:30:00 +0530
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============0837616068701657617=="
+
+--===============0837616068701657617==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please view this email in an HTML-capable client.
+
+--===============0837616068701657617==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+<html><body><p>Dear Students,</p>
+<table border="1">
+<tr><td>Company</td><td>Tamarind Health</td></tr>
+<tr><td>Role</td><td>Data Analyst Intern</td></tr>
+<tr><td>Eligibility</td><td>CGPA 7 &amp; above (no active backlogs)</td></tr>
+<tr><td>Branches</td><td>CSE, ISE, CSBS, AI&amp;DS</td></tr>
+<tr><td>Batch</td><td>2027</td></tr>
+<tr><td>Register before</td><td>30/10/2026</td></tr>
+</table><p>Placement Cell</p></body></html>
+
+--===============0837616068701657617==--
